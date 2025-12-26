@@ -35,23 +35,6 @@ Desenvolver um sistema simples em **Java** que permita gerenciar produtos em um 
 📄 README.md
 ```
 
-## ▶️ Como Executar
-
-1. **Compile** os arquivos:
-   ```bash
-   javac -d bin -cp "lib/mysql-connector-j-9.2.0.jar" src/database/Conexao.java src/model/Produto.java src/dao/ProdutoDAO.java src/App.java
-   ```
-
-2. **Execute** o sistema:
-   ```bash
-   java -cp "bin;lib/mysql-connector-j-9.2.0.jar" App
-   ```
-
-> 💡 Obs: Se estiver usando Linux ou macOS, troque `;` por `:` no classpath:
-> ```bash
-> java -cp "bin:lib/mysql-connector-j-9.2.0.jar" App
-> ```
-
 ---
 
 Esse projeto foi criado com foco em aprendizado e boas práticas. Ele representa a consolidação de conhecimentos sobre JDBC, organização de código em Java e interação com banco de dados MySQL.
