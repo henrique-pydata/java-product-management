@@ -1,40 +1,18 @@
-# 📦 Sistema de Gerenciamento de Produtos em Java com MySQL
+# Sistema de Gerenciamento de Produtos
 
-## 🎯 Objetivo
-Desenvolver um sistema simples em **Java** que permita gerenciar produtos em um banco de dados **MySQL**, realizando operações **CRUD** (Create, Read, Update, Delete) de forma organizada e seguindo boas práticas de código.
+Projeto de sistema simples em **Java** para gerenciar produtos em um banco de dados **MySQL**.
 
-## 📈 Progresso Atual
-- ✅ Adicionar Produto  
-- ✅ Listar Produtos  
-- ✅ Atualizar Produto  
-- ✅ Deletar Produto  
-- ✅ Geração automática de código do produto  
-- ✅ Menu de opções interativo  
-- 🚧 Validações de entrada  
+## O que foi feito
+- Criação de CRUD para produtos (Create, Read, Update, Delete)
+- Menu de opções interativo
+- Geração automática de código do produto
+- Estrutura organizada com DAO e modelo de dados
+- Integração com banco MySQL via JDBC
 
-## 🛠️ Tecnologias Utilizadas
-- ☕ **Java 8+**  
-- 🐬 **MySQL 5.7+**  
-- 📡 **JDBC (Java Database Connectivity)**
+## Alguns aprendizados
+- Organização de código em Java
+- Manipulação de banco de dados MySQL
+- Implementação de boas práticas de programação
 
-## 📁 Estrutura do Projeto
-```
-📦 src/
-├── App.java
-├── database/
-│   ├── Conexao.java
-│   └── script_criacao_banco.sql
-├── model/
-│   └── Produto.java
-└── dao/
-    └── ProdutoDAO.java
-📦 lib/
-└── mysql-connector-j-9.2.0.jar
-📦 bin/
-└── (arquivos compilados)
-📄 README.md
-```
-
----
-
-Esse projeto foi criado com foco em aprendizado e boas práticas. Ele representa a consolidação de conhecimentos sobre JDBC, organização de código em Java e interação com banco de dados MySQL.
+## Ferramentas
+Java, MySQL, JDBC
